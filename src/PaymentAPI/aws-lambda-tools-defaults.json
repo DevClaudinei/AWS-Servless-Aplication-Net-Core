@@ -1,0 +1,21 @@
+
+{
+    "region" : "us-east-1",
+    "profile" : "claudinei.santos",
+    "configuration" : "Release",
+    "framework"     : "net6.0",
+    "function-name" : "payment-api-on-lambda-vs",
+    "function-description" : "",
+    "package-type"         : "Zip",
+    "function-handler"     : "PaymentApi",
+    "function-memory-size" : 256,
+    "function-role"        : "arn:aws:iam::966413963738:role/lambda_exec_payment-api-on-lambda-vs",
+    "function-timeout"     : 30,
+    "function-runtime"     : "dotnet6",
+    "function-architecture" : "x86_64",
+    "function-subnets"      : "",
+    "function-security-groups" : "",
+    "tracing-mode"             : "PassThrough",
+    "environment-variables"    : "\"ASPNETCORE_ENVIRONMENT\"=\"Development\"",
+    "image-tag"                : ""
+}

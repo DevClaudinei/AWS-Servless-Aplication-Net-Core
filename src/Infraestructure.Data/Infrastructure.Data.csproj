@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="EntityFrameworkCore.Data.UnitOfWork" Version="6.0.10" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.12" />
+		<PackageReference Include="MongoDB.Data.Generators" Version="1.1.5" />
+		<PackageReference Include="MongoDB.Data.Infrastructure" Version="1.1.5" />
+		<PackageReference Include="MongoDB.Data.Infrastructure.Abstractions" Version="1.1.5" />
+		<PackageReference Include="MongoDB.Data.QueryBuilder" Version="1.1.5" />
+		<PackageReference Include="MongoDB.Data.QueryBuilder.Abstractions" Version="1.1.5" />
+		<PackageReference Include="MongoDB.Data.Repository" Version="1.1.5" />
+		<PackageReference Include="MongoDB.Data.Repository.Abstractions" Version="1.1.5" />
+		<PackageReference Include="MongoDB.Data.UnitOfWork" Version="1.1.5" />
+		<PackageReference Include="MongoDB.Data.UnitOfWork.Abstractions" Version="1.1.5" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\DomainModels\DomainModels.csproj" />
+	</ItemGroup>
+
+</Project>
