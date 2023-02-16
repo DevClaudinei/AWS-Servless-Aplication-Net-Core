@@ -96,7 +96,8 @@ public class VendaService : IVendaService
     
     public void AtualizarVenda(string id, Venda venda)
     {
-        var vendaEncontrada = BuscarVendaPorId(id);
+        var vendaEncontrada = BuscarVendaPorId(id) ?? 
+            throw new NotFoundException($"Venda para o Id: {id} não encontrada.");
 
         TransicaoDeStatus(vendaEncontrada.Result.Status, venda.Status);
 
